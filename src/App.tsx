@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
-import PockemonSearch from './components/pockemon-search'
+import React from "react";
+import "./App.css";
+import PokemonSearch from "./components/pokemon-search";
 
 function App() {
   return (
     <div className="App">
-      <PockemonSearch />
+      <PokemonSearch name={"PokeApi"} numberOfPokemons={964} />
     </div>
   );
 }
